@@ -20,7 +20,7 @@ def start(game):
         else:
             print(
                 f"'{reply}' is wrong answer ;(. Correct answer was '{output}'."
-                )
+            )
             print(f"Let's try again, {name}!")
             score -= 1
             break
