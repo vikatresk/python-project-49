@@ -1,14 +1,16 @@
 from random import randint
 
 GAME = 'What number is missing in the progression?'
-START_NUMBER = randint(1, 15) # initial number 
-END_NUMBER = randint(40, 60) # end number
-STEP = randint(2, 4) # progression step
-LENGTH = randint(5, 10) # amount of numbers
+START_NUMBER = randint(1, 15)  # initial number
+END_NUMBER = randint(40, 60)  # end number
+STEP = randint(2, 4)  # progression step
+LENGTH = randint(5, 10)  # amount of numbers
+
 
 def make_progression(start_number, end_number, step):
     progression = list(range(start_number, end_number, step))[:LENGTH]
     return progression
+    
 
 def play():
     progression = make_progression(START_NUMBER, END_NUMBER, STEP)
