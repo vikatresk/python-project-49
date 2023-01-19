@@ -1,5 +1,6 @@
 import random
 
+
 GAME = "What is the result of the expression?"
 MAX_NUMBER = 15
 
@@ -19,3 +20,4 @@ def play():
         addition = number1 + number2
         output = str(addition)
     return question, output
+    
