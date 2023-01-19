@@ -1,6 +1,6 @@
 import random
 
-GAME = 'Answer "yes" if the number is even otherwise answer "no".'
+GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 MAX_NUMBER = 200 #максимальное число
 
 def play():
