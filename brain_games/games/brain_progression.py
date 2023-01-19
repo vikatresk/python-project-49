@@ -10,7 +10,7 @@ LENGTH = randint(5, 10)  # amount of numbers
 def make_progression(start_number, end_number, step):
     progression = list(range(start_number, end_number, step))[:LENGTH]
     return progression
-    
+
 
 def play():
     progression = make_progression(START_NUMBER, END_NUMBER, STEP)
