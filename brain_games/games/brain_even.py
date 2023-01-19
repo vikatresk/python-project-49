@@ -6,9 +6,9 @@ MAX_NUMBER = 200  # максимальное число
 
 
 def play():
-    number = random.randint (0, MAX_NUMBER)
+    number = random.randint(0, MAX_NUMBER)
     question = f'{number}'
-    if number%2 == 0:
+    if number % 2 == 0:
         output = 'yes'
     else:
         output = 'no'
