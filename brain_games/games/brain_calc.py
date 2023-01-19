@@ -4,6 +4,7 @@ import random
 GAME = "What is the result of the expression?"
 MAX_NUMBER = 15
 
+
 def play():
     number1 = random.randint(0, MAX_NUMBER)
     operator = random.choice('+-*')
@@ -20,4 +21,3 @@ def play():
         addition = number1 + number2
         output = str(addition)
     return question, output
-    
