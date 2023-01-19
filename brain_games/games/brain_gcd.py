@@ -12,4 +12,3 @@ def play():
     question = f'{number} {number1}'
     output = math.gcd(number, number1)
     return question, output
-    
