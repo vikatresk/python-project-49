@@ -7,7 +7,7 @@ def play():
     number1 = random.randint(0, MAX_NUMBER)
     operator = random.choice('+-*')
     number2 = random.randint(0, MAX_NUMBER)
-    question = f'{number1 }{operator}{ number2}'
+    question = f'{number1 } {operator} { number2}'
     output = ''
     if operator == '-':
         substr = number1 - number2
