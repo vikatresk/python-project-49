@@ -1,5 +1,6 @@
 import prompt
 
+
 ROUNDS = 3
 
 def start(game):
@@ -13,12 +14,14 @@ def start(game):
         print(f'Question: {question}')
         reply = prompt.string('Your answer: ')
         if reply == str(output):
-            print ('Correct!')
+            print('Correct!')
             score += 1
         else:
-            print(f" '{reply}' is wrong answer ;(. Correct answer was '{output}'.")
+            print(f" '{reply}' is wrong answer ;(. 
+            Correct answer was '{output}'.")
             print(f"Let's try again, {name}!")
             score -= 1
             break
     if score == ROUNDS:
         print(f"Congratulations, {name}!")
+        
