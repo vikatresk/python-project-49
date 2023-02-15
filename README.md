@@ -8,7 +8,8 @@ This is a set of 5 simple games based on brain games apps. To win you need to an
 
 
 brain-even:
-<script scr="https://asciinema.org/a/a1OKN1i1CqpEiGPijQkQCh7yC"></script>
+[![asciicast](https://asciinema.org/a/a1OKN1i1CqpEiGPijQkQCh7yC.png)](https://asciinema.org/a/a1OKN1i1CqpEiGPijQkQCh7yC)
+
 
 brain-calc:
 https://asciinema.org/a/J55g4YnqowJf9eqNe3bk6yUpj
