@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain Games is a set of five simple games based on mobile brain training apps"
+repository = "https://github.com/vikatresk/python-project-49"
 authors = ["Viktoria Treskova <vikatresk@yandex.ru>"]
+classifiers = [
+    "Programming Language :: Python :: 3.8.10 :: Education :: poetry"
+]
 readme = "README.md"
 packages = [
 	{include = "brain_games"}
