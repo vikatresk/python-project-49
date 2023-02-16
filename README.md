@@ -8,17 +8,16 @@ This is a set of 5 simple games based on brain games apps. To win you need to an
 
 
 brain-even:
-[![asciicast](https://asciinema.org/a/a1OKN1i1CqpEiGPijQkQCh7yC.png)](https://asciinema.org/a/a1OKN1i1CqpEiGPijQkQCh7yC)
-
+[![asciicast](https://asciinema.org/a/hmSbsFZtsvuZMzxTZc6axlZyF.svg)](https://asciinema.org/a/hmSbsFZtsvuZMzxTZc6axlZyF)
 
 brain-calc:
-https://asciinema.org/a/J55g4YnqowJf9eqNe3bk6yUpj
+[![asciicast](https://asciinema.org/a/ZWqQkwBGTbvxzTR9VHyAcdQhy.svg)](https://asciinema.org/a/ZWqQkwBGTbvxzTR9VHyAcdQhy)
 
 brain-gcd:
-https://asciinema.org/a/2US1JTfW7J7TMZsLsIvRkyNLD
+[![asciicast](https://asciinema.org/a/m5uwsicATQWXXgs6Lz5vrZb7E.svg)](https://asciinema.org/a/m5uwsicATQWXXgs6Lz5vrZb7E)
 
 brain-progression:
-https://asciinema.org/a/msUIUXv36PZ56JbJlRJgSEuTQ
+[![asciicast](https://asciinema.org/a/HXqH2CCorUsdusIK6UYlqoSxr.svg)](https://asciinema.org/a/HXqH2CCorUsdusIK6UYlqoSxr)
 
 brain-prime:
-https://asciinema.org/a/dT9w8BJJGgVC5NkfSkkINjUgr
+[![asciicast](https://asciinema.org/a/jEcfhxX1WXXgGnNQC6kdFl0Th.svg)](https://asciinema.org/a/jEcfhxX1WXXgGnNQC6kdFl0Th)
