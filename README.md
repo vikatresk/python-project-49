@@ -4,10 +4,12 @@ This is a set of 5 simple games based on brain games apps. To win you should ans
 
 ____
 
-#__Installation__:
+__Installation__:
 
-`git clone https://github.com/vikatresk/python-project-49`
-`pip install --user git+https://github.com/vikatresk/python-project-49`
+```
+git clone https://github.com/vikatresk/python-project-49
+pip install --user git+https://github.com/vikatresk/python-project-49
+```
 
 ____
 
@@ -18,17 +20,17 @@ ____
 
 ____
 
-#__Brain-even__:
+__Brain-even__:
 [![asciicast](https://asciinema.org/a/hmSbsFZtsvuZMzxTZc6axlZyF.svg)](https://asciinema.org/a/hmSbsFZtsvuZMzxTZc6axlZyF)
 
-#__Brain-calc__:
+__Brain-calc__:
 [![asciicast](https://asciinema.org/a/ZWqQkwBGTbvxzTR9VHyAcdQhy.svg)](https://asciinema.org/a/ZWqQkwBGTbvxzTR9VHyAcdQhy)
 
-#__Brain-gcd__:
+__Brain-gcd__:
 [![asciicast](https://asciinema.org/a/m5uwsicATQWXXgs6Lz5vrZb7E.svg)](https://asciinema.org/a/m5uwsicATQWXXgs6Lz5vrZb7E)
 
-#__Brain-progression__:
+__Brain-progression__:
 [![asciicast](https://asciinema.org/a/HXqH2CCorUsdusIK6UYlqoSxr.svg)](https://asciinema.org/a/HXqH2CCorUsdusIK6UYlqoSxr)
 
-#__Brain-prime__:
+__Brain-prime__:
 [![asciicast](https://asciinema.org/a/jEcfhxX1WXXgGnNQC6kdFl0Th.svg)](https://asciinema.org/a/jEcfhxX1WXXgGnNQC6kdFl0Th)
