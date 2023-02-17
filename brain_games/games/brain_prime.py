@@ -1,18 +1,18 @@
 import random
 
 
-GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 MAX_NUMBER = 100
 
 
-def play():
+def play_round():
     number = random.randint(0, MAX_NUMBER)
     question = f'{number}'
     if is_prime(number):
-        output = 'yes'
+        result = 'yes'
     else:
-        output = 'no'
-    return question, output
+        result = 'no'
+    return question, result
 
 
 def is_prime(number):
@@ -21,4 +21,4 @@ def is_prime(number):
     divider = 2
     while number % divider != 0:
         divider += 1
-    return divider == number
+    return divider == number % 2

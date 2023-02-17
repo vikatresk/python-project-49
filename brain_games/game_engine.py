@@ -1,28 +1,27 @@
 import prompt
 
 
-ROUNDS = 3
+ROUNDS_TO_WIN = 3
 
 
 def start(game):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f'Hello, {name}!')
-    print(game.GAME)
+    print(game.GAME_DESCRIPTION)
     score = 0
-    while score < ROUNDS:
-        question, output = game.play()
+    while score < ROUNDS_TO_WIN:
+        question, result = game.play()
         print(f'Question: {question}')
         reply = prompt.string('Your answer: ')
-        if reply == str(output):
+        if reply == result:
             print('Correct!')
             score += 1
         else:
             print(
-                f"'{reply}' is wrong answer ;(. Correct answer was '{output}'."
+                f"'{reply}' is wrong answer ;(. Correct answer was '{result}'."
             )
             print(f"Let's try again, {name}!")
-            score -= 1
-            break
-    if score == ROUNDS:
+            return
+    if score == ROUNDS_TO_WIN:
         print(f"Congratulations, {name}!")

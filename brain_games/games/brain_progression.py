@@ -1,6 +1,6 @@
 from random import randint
 
-GAME = 'What number is missing in the progression?'
+GAME_DESCRIPTION = 'What number is missing in the progression?'
 START_NUMBER = randint(1, 15)  # initial number
 END_NUMBER = randint(40, 60)  # end number
 STEP = randint(2, 4)  # progression step
@@ -12,10 +12,10 @@ def make_progression(start_number, end_number, step):
     return progression
 
 
-def play():
+def play_round():
     progression = make_progression(START_NUMBER, END_NUMBER, STEP)
     index = randint(0, len(progression) - 1)
-    output = progression[index]
+    result = progression[index]
     progression[index] = '..'
     question = " ".join(str(i) for i in progression)
-    return question, str(output)
+    return question, str(result)
