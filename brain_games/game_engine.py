@@ -11,7 +11,7 @@ def start(game):
     print(game.GAME_DESCRIPTION)
     score = 0
     while score < ROUNDS_TO_WIN:
-        question, result = game.play()
+        question, result = game.play_round()
         print(f'Question: {question}')
         reply = prompt.string('Your answer: ')
         if reply == result:
