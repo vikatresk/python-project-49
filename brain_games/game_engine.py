@@ -18,9 +18,8 @@ def start(game):
             print('Correct!')
             rounds += 1
         else:
-            print(
-                f"'{reply}' is wrong answer ;(. Correct answer was '{result}'."
-            )
+            print(f"'{reply}' is wrong answer ;(. "
+                  f"Correct answer was '{expected_answer}'")
             print(f"Let's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
