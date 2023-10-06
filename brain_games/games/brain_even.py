@@ -8,15 +8,9 @@ MAX_NUMBER = 200  # максимальное число
 def play_round():
     number = random.randint(0, MAX_NUMBER)
     question = f'{number}'
-    if is_even(number):
-        result = 'yes'
-    else:
-        result = 'no'
-    return question, result
+    expected_answer = 'yes' if is_even(num) is True else 'no'
+    return question, expected_answer
 
 
 def is_even(number):
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+    return number % 2 == 0

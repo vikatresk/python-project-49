@@ -9,19 +9,18 @@ def start(game):
     name = prompt.string("May I have your name? ")
     print(f'Hello, {name}!')
     print(game.GAME_DESCRIPTION)
-    score = 0
-    while score < ROUNDS_TO_WIN:
-        question, result = game.play_round()
+    rounds = 0
+    while rounds < ROUNDS_TO_WIN:
+        question, expected_answer = game.play_round()
         print(f'Question: {question}')
         reply = prompt.string('Your answer: ')
-        if reply == result:
+        if reply == expected_answer:
             print('Correct!')
-            score += 1
+            rounds += 1
         else:
             print(
                 f"'{reply}' is wrong answer ;(. Correct answer was '{result}'."
             )
             print(f"Let's try again, {name}!")
             return
-    if score == ROUNDS_TO_WIN:
-        print(f"Congratulations, {name}!")
+    print(f"Congratulations, {name}!")

@@ -10,7 +10,8 @@ def play_round():
     operator = random.choice(['+', '-', '*'])
     number2 = random.randint(0, MAX_NUMBER)
     question = f'{number1 } {operator} { number2}'
-    return question, calculate(number1, number2, operator)
+    expected_answer = calculate(number1, number2, operator)
+    return (question, str(expected_answer))
 
 
 def calculate(number1, number2, operator):

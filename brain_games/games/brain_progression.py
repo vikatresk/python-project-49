@@ -15,7 +15,7 @@ def make_progression(start_number, end_number, step):
 def play_round():
     progression = make_progression(START_NUMBER, END_NUMBER, STEP)
     index = randint(0, len(progression) - 1)
-    result = progression[index]
+    expected_answer = progression[index]
     progression[index] = '..'
     question = " ".join(str(i) for i in progression)
-    return question, str(result)
+    return question, str(expected_answer)
