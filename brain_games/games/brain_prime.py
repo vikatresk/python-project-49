@@ -5,7 +5,7 @@ GAME_DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no"
 MAX_NUMBER = 100
 
 
-def play_round():
+def create_round_data():
     random_number = random.randint(0, MAX_NUMBER)
     expected_answer = 'yes' if is_prime(random_number) else 'no'
     question = f'{random_number}'
@@ -13,9 +13,11 @@ def play_round():
 
 
 def is_prime(number):
-    if number == 1:
+    if number % 2 == 0 or number <= 1:
         return False
-    for i in range(2, number):
+    elif number == 2:
+        return True
+    for i in range(3, int(number ** 0.5) + 1, 2):
         if number % i == 0:
             return False
     return True

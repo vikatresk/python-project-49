@@ -5,7 +5,7 @@ GAME_DESCRIPTION = "What is the result of the expression?"
 MAX_NUMBER = 15
 
 
-def play_round():
+def create_round_data():
     number1 = random.randint(0, MAX_NUMBER)
     operator = random.choice(['+', '-', '*'])
     number2 = random.randint(0, MAX_NUMBER)
